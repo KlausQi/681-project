@@ -1,9 +1,9 @@
-function res=check(out,poly,bx,by)
-    sol = [100 100];
+function res=check(out,poly,bx,by,lb)
+    sol = [10 10];
     for i=1:length(out)
         temp(:,1)=out(i,1)+poly(:,1);
         temp(:,2)=out(i,2)+poly(:,2);
-        if min(temp(:,1))<0
+        if min(temp(:,1))<lb
             continue;
         end
         if max(temp(:,1))>bx
