@@ -1,4 +1,4 @@
-function res=check(out,poly,bx,by,lb)
+function [res,sol]=check(out,poly,bx,by,lb)
     sol = [10 10];
     for i=1:length(out)
         temp(:,1)=out(i,1)+poly(:,1);
