@@ -24,6 +24,8 @@ hold on
 k=1;
 col=1;
 lb=0;
+to_wrl{1}(:,1)=o{list(1)}(:,1)-min(o{list(1)}(:,1));
+to_wrl{1}(:,2)=o{list(1)}(:,2)-min(o{list(1)}(:,2));
 plot(o{list(1)}(:,1)-min(o{list(1)}(:,1)),o{list(1)}(:,2)-min(o{list(1)}(:,2)));
 for i=2:length(list)
     clear out;
@@ -43,7 +45,9 @@ for i=2:length(list)
     else
         [res{i},sol]=check(out_union,v{list(i)},10,10,lb);
     end
-
+    to_wrl{i}(:,1)=o{list(i)}(:,1)+sol(1,1)-min(o{list(1)}(:,1));
+    to_wrl{i}(:,2)=o{list(i)}(:,2)+sol(1,2)-min(o{list(1)}(:,2));
     plot(o{list(i)}(:,1)+sol(1,1)-min(o{list(1)}(:,1)),o{list(i)}(:,2)+sol(1,2)-min(o{list(1)}(:,2)));
 end
+wrl(list,to_wrl);
 %  plot(out_union(:,1),out_union(:,2))

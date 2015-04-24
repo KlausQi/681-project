@@ -1,3 +1,4 @@
+function wrl(list,res)
 fid = fopen('demo.wrl', 'w'); 
 fprintf(fid, '#VRML V2.0 utf8\n');
 fprintf(fid, 'Background{ skyColor 1 1 1 }\n'); 
@@ -29,4 +30,5 @@ for i=1:length(list)
     r = rand(3,1);
     fprintf(fid,'appearance Appearance{ material Material{ diffuseColor %f %f %f}}\n',r(1,1), r(2,1), r(3,1));
     fprintf(fid,'}\n'); 
+end
 end

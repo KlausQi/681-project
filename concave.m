@@ -1,5 +1,5 @@
 function new_v = concave(v)
-m = length(v(:,1)) - 1
+m = length(v(:,1)) - 1;
 for i = 1:m
     vector(i,1) = v(i+1,1) - v(i,1);
     vector(i,2) = v(i+1,2) - v(i,2);

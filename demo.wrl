@@ -1,0 +1,150 @@
+#VRML V2.0 utf8
+Background{ skyColor 1 1 1 }
+NavigationInfo{ type "EXAMINE"}
+Shape{ 
+	 geometry IndexedLineSet{ 
+		 coord Coordinate{ point[
+			0 0 0, 10 0 0, 10 10 0, 0 10 0
+		] }
+coordIndex[
+	 0 1 -1, 1 2 -1, 2 3 -1, 3 0 -1		]
+color Color{ color [0 0 0, 0 0 0, 0 0 0, 0 0 0]}
+}
+}
+Shape{ 
+	 geometry IndexedFaceSet{ 
+		 coord Coordinate{ point[
+			 0.500000 0.000000 0,
+			 1.500000 0.000000 0,
+			 2.000000 0.866025 0,
+			 1.500000 2.732051 0,
+			 0.500000 2.732051 0,
+			 0.000000 0.866025 0,
+			 0.500000 0.000000 0,
+		] }
+coordIndex[
+	0,	1,	2,	3,	4,	5,		]
+	}
+appearance Appearance{ material Material{ diffuseColor 0.392227 0.655478 0.171187}}
+}
+Shape{ 
+	 geometry IndexedFaceSet{ 
+		 coord Coordinate{ point[
+			 0.500000 2.732051 0,
+			 1.500000 2.732051 0,
+			 2.000000 3.598076 0,
+			 1.500000 5.464102 0,
+			 0.500000 5.464102 0,
+			 0.000000 3.598076 0,
+			 0.500000 2.732051 0,
+		] }
+coordIndex[
+	0,	1,	2,	3,	4,	5,		]
+	}
+appearance Appearance{ material Material{ diffuseColor 0.706046 0.031833 0.276923}}
+}
+Shape{ 
+	 geometry IndexedFaceSet{ 
+		 coord Coordinate{ point[
+			 0.500000 5.464102 0,
+			 1.500000 5.464102 0,
+			 2.000000 6.330127 0,
+			 1.500000 8.196152 0,
+			 0.500000 8.196152 0,
+			 0.000000 6.330127 0,
+			 0.500000 5.464102 0,
+		] }
+coordIndex[
+	0,	1,	2,	3,	4,	5,		]
+	}
+appearance Appearance{ material Material{ diffuseColor 0.046171 0.097132 0.823458}}
+}
+Shape{ 
+	 geometry IndexedFaceSet{ 
+		 coord Coordinate{ point[
+			 2.500000 0.000000 0,
+			 3.500000 0.000000 0,
+			 4.000000 0.866025 0,
+			 3.500000 2.732051 0,
+			 2.500000 2.732051 0,
+			 2.000000 0.866025 0,
+			 2.500000 0.000000 0,
+		] }
+coordIndex[
+	0,	1,	2,	3,	4,	5,		]
+	}
+appearance Appearance{ material Material{ diffuseColor 0.694829 0.317099 0.950222}}
+}
+Shape{ 
+	 geometry IndexedFaceSet{ 
+		 coord Coordinate{ point[
+			 2.500000 2.732051 0,
+			 6.500000 2.732051 0,
+			 5.500000 3.732051 0,
+			 4.500000 3.232051 0,
+			 3.500000 3.732051 0,
+			 2.500000 2.732051 0,
+		] }
+coordIndex[
+	0,	1,	2,	3,	4,		]
+	}
+appearance Appearance{ material Material{ diffuseColor 0.034446 0.438744 0.381558}}
+}
+Shape{ 
+	 geometry IndexedFaceSet{ 
+		 coord Coordinate{ point[
+			 2.500000 3.732051 0,
+			 6.500000 3.732051 0,
+			 5.500000 4.732051 0,
+			 4.500000 4.232051 0,
+			 3.500000 4.732051 0,
+			 2.500000 3.732051 0,
+		] }
+coordIndex[
+	0,	1,	2,	3,	4,		]
+	}
+appearance Appearance{ material Material{ diffuseColor 0.765517 0.795200 0.186873}}
+}
+Shape{ 
+	 geometry IndexedFaceSet{ 
+		 coord Coordinate{ point[
+			 2.500000 4.732051 0,
+			 6.500000 4.732051 0,
+			 5.500000 5.732051 0,
+			 4.500000 5.232051 0,
+			 3.500000 5.732051 0,
+			 2.500000 4.732051 0,
+		] }
+coordIndex[
+	0,	1,	2,	3,	4,		]
+	}
+appearance Appearance{ material Material{ diffuseColor 0.489764 0.445586 0.646313}}
+}
+Shape{ 
+	 geometry IndexedFaceSet{ 
+		 coord Coordinate{ point[
+			 2.500000 5.732051 0,
+			 3.500000 5.732051 0,
+			 3.500000 6.732051 0,
+			 2.500000 6.732051 0,
+			 2.500000 5.732051 0,
+		] }
+coordIndex[
+	0,	1,	2,	3,		]
+	}
+appearance Appearance{ material Material{ diffuseColor 0.709365 0.754687 0.276025}}
+}
+Shape{ 
+	 geometry IndexedFaceSet{ 
+		 coord Coordinate{ point[
+			 2.500000 6.732051 0,
+			 3.500000 6.732051 0,
+			 3.500000 7.732051 0,
+			 2.500000 7.732051 0,
+			 2.500000 6.732051 0,
+		] }
+coordIndex[
+	0,	1,	2,	3,		]
+	}
+appearance Appearance{ material Material{ diffuseColor 0.679703 0.655098 0.162612}}
+}
